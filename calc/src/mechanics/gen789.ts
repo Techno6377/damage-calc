@@ -1038,6 +1038,8 @@ export function calculateBPModsSMSSSV(
     (attacker.hasAbility('Mega Launcher') && move.flags.pulse) ||
     (attacker.hasAbility('Strong Jaw') && move.flags.bite) ||
     (attacker.hasAbility('Steely Spirit') && move.hasType('Steel')) ||
+	(attacker.hasAbility('Sand Force') &&
+      field.hasWeather('Sand') && move.hasType('Rock', 'Ground', 'Steel')) ||
     (attacker.hasAbility('Sharpness') && move.flags.slicing)
   ) {
     bpMods.push(6144);
@@ -1069,10 +1071,9 @@ export function calculateBPModsSMSSSV(
   if (
     (attacker.hasAbility('Sheer Force') &&
       (move.secondaries || move.named('Jet Punch', 'Order Up')) && !move.isMax) ||
-    (attacker.hasAbility('Sand Force') &&
-      field.hasWeather('Sand') && move.hasType('Rock', 'Ground', 'Steel')) ||
     (attacker.hasAbility('Analytic') &&
       (turnOrder !== 'first' || field.defenderSide.isSwitching === 'out')) ||
+    (attacker.hasAbility('Iron Fist') && move.flags.punch) ||
     (attacker.hasAbility('Tough Claws') && move.flags.contact) ||
     (attacker.hasAbility('Punk Rock') && move.flags.sound)
   ) {
@@ -1107,9 +1108,7 @@ export function calculateBPModsSMSSSV(
     bpMods.push(4915);
   }
 
-  if ((attacker.hasAbility('Reckless') && (move.recoil || move.hasCrashDamage)) ||
-      (attacker.hasAbility('Iron Fist') && move.flags.punch)
-  ) {
+  if ((attacker.hasAbility('Reckless') && (move.recoil || move.hasCrashDamage))) {
     bpMods.push(4915);
     desc.attackerAbility = attacker.ability;
   }
