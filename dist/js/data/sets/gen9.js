@@ -1972,7 +1972,7 @@ var SETDEX_SV = {
     "1v1 Choice Band": {"ability":"Intimidate","item":"Choice Band","nature":"Adamant","teraType":"Ground","evs":{"hp":8,"at":252,"df":248},"moves":["Earthquake","Crunch","Outrage","Gunk Shot"]}
   },
   "Darmanitan-Galar": {
-	"P2 - Zen Mode": {"ability":"Zen Mode","item":"Heavy-Duty Boots","nature":"Jolly","teraType":"Ice","evs":{"at":252,"sd":4,"sp":252},"moves":["Ice Hammer","Flare Blitz","U-turn","Protect"]}
+	"P2 - Zen Mode": {"ability":"Zen Mode","item":"Heavy-Duty Boots","nature":"Jolly","teraType":"Ice","evs":{"at":252,"sd":4,"sp":252},"moves":["Ice Hammer","Flare Blitz","U-turn","Protect"]},
     "National Dex Monotype Choice Scarf": {"ability":"Gorilla Tactics","item":"Choice Scarf","nature":"Jolly","teraType":"Ice","evs":{"at":252,"sd":4,"sp":252},"moves":["Icicle Crash","U-turn","Flare Blitz","Earthquake"]}
   },
   "Archeops": {
@@ -2331,7 +2331,7 @@ var SETDEX_SV = {
     "CAP Showdown Usage": {"ability":"Intimidate","item":"Leftovers","nature":"Careful","teraType":"Ground","evs":{"hp":252,"sd":252},"moves":["Earthquake","U-turn","Stealth Rock","Smack Down"]}
   },
   "Kyurem": {
-	"P2 - Physically Offensive": {"ability":"Pressure","item":"Loaded Dice","nature":"Jolly","teraType":"Ice","evs":{"at":252,"sd":4,"sp":252},"moves":["Icicle Spear","Scale Shot","Earthquake","Roost"]},
+	"P2 - Dice": {"ability":"Pressure","item":"Loaded Dice","nature":"Jolly","teraType":"Ice","evs":{"at":252,"sd":4,"sp":252},"moves":["Icicle Spear","Scale Shot","Earthquake","Roost"]},
     "OU Choice Specs": {"ability":"Pressure","item":"Choice Specs","nature":"Timid","teraType":"Ice","evs":{"sa":252,"sd":4,"sp":252},"moves":["Ice Beam","Freeze-Dry","Draco Meteor","Earth Power"]},
     "OU Heavy-Duty Boots": {"ability":"Pressure","item":"Heavy-Duty Boots","nature":"Timid","teraType":"Ice","evs":{"sa":252,"sd":4,"sp":252},"moves":["Ice Beam","Freeze-Dry","Earth Power","Draco Meteor"]},
     "OU Dragon Dance": {"ability":"Pressure","item":"Loaded Dice","nature":"Jolly","teraType":"Ground","evs":{"at":252,"df":4,"sp":252},"moves":["Dragon Dance","Scale Shot","Icicle Spear","Tera Blast"]},
@@ -4831,7 +4831,7 @@ var SETDEX_SV = {
     "NU Showdown Usage": {"ability":"Harvest","item":"Sitrus Berry","nature":"Quiet","teraType":"Grass","evs":{"hp":252,"sa":252,"sd":4},"moves":["Flamethrower","Trick Room","Draco Meteor","Dragon Hammer"]}
   },
   "Electivire": {
-	"P2 - Bulk Up": {"ability":"Iron Fist","item":"Leftovers","nature":"Jolly","teraType":"Electric","evs":{"at":252,"sd":4,"sp":252},"moves":["Bulk Up","Ice Punch","Plasma Fists","Close Combat"]}
+	"P2 - Bulk Up": {"ability":"Iron Fist","item":"Leftovers","nature":"Jolly","teraType":"Electric","evs":{"at":252,"sd":4,"sp":252},"moves":["Bulk Up","Ice Punch","Plasma Fists","Close Combat"]},
     "NU Showdown Usage": {"ability":"Motor Drive","item":"Leftovers","nature":"Adamant","teraType":"Electric","evs":{"at":252,"sd":4,"sp":252},"moves":["Supercell Slam","Ice Punch","Bulk Up","Earthquake"]}
   },
   "Oricorio-Sensu": {
