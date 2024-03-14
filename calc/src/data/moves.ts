@@ -1666,9 +1666,9 @@ const BW_PATCH: {[name: string]: DeepPartial<MoveData>} = {
   },
   Venoshock: {bp: 65, type: 'Poison', category: 'Special'},
   'Wild Charge': {
-    bp: 120,
+    bp: 110,
     type: 'Electric',
-    recoil: [1, 4],
+    recoil: [1, 3],
     makesContact: true,
     category: 'Physical',
   },
