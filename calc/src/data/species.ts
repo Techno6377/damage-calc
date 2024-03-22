@@ -5019,7 +5019,7 @@ delete BW['Pichu-Spiky-eared'];
 
 const XY_PATCH: {[name: string]: DeepPartial<SpeciesData>} = {
   Abomasnow: {otherFormes: ['Abomasnow-Mega']},
-  Absol: {otherFormes: ['Absol-Mega']},
+  Absol: {types: ['Dark', 'Fairy'], {otherFormes: ['Absol-Mega']},
   Aerodactyl: {otherFormes: ['Aerodactyl-Mega']},
   Aggron: {otherFormes: ['Aggron-Mega']},
   Alakazam: {bs: {sd: 95}, otherFormes: ['Alakazam-Mega']},
