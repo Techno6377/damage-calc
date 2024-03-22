@@ -2857,7 +2857,7 @@ var SETDEX_SV = {
     "PU Showdown Usage": {"ability":"Strong Jaw","item":"Choice Scarf","nature":"Jolly","teraType":"Water","evs":{"at":252,"sd":4,"sp":252},"moves":["Psychic Fangs","Wave Crash","Flip Turn","Crunch"]}
   },
   "Dhelmise": {
-    "P2 - Obnoxious Wall": {"level":100,"ability":"Steelworker","item":"Leftovers","nature":"Adamant","teraType":"Water","evs":{"hp":252,"at":4,"sa":252},"moves":["Poltergeist","Power Whip","Rapid Spin","Synthesis"]},
+    "P2 - Obnoxious Wall": {"level":100,"ability":"Steelworker","item":"Leftovers","nature":"Adamant","teraType":"Water","evs":{"hp":252,"at":4,"sd":252},"moves":["Poltergeist","Power Whip","Rapid Spin","Synthesis"]},
 	"P2 - Assault Vest": {"level":100,"ability":"Steelworker","item":"Leftovers","nature":"Adamant","teraType":"Water","evs":{"hp":252,"at":252,"def":4},"moves":["Poltergeist","Power Whip","Anchor Shot","Rapid Spin"]}
   },
   "Kommo-o": {
