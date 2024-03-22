@@ -4763,7 +4763,7 @@ var SETDEX_SV = {
     "PU Showdown Usage": {"ability":"Tinted Lens","item":"Heavy-Duty Boots","nature":"Modest","teraType":"Bug","evs":{"sa":252,"sd":4,"sp":252},"moves":["Quiver Dance","Bug Buzz","Sludge Wave","Sludge Bomb"]}
   },
   "Regigigas": {
-	"P2 - Normalize": {"ability":"Normalize","item":"Leftovers","nature":"Adamant","teraType":"Normal","evs":{"hp":252,"at":252,"sd":4},"moves":["Knock Off","Return","Rest","Sleep Talk"]}
+	"P2 - Normalize": {"ability":"Normalize","item":"Leftovers","nature":"Adamant","teraType":"Normal","evs":{"hp":252,"at":252,"sd":4},"moves":["Knock Off","Return","Rest","Sleep Talk"]},
     "PU Showdown Usage": {"ability":"Slow Start","item":"Leftovers","nature":"Adamant","teraType":"Normal","evs":{"hp":252,"at":252,"sd":4},"moves":["Knock Off","Body Slam","Substitute","Protect"]}
   },
   "Komala": {
