@@ -5019,7 +5019,6 @@ delete BW['Pichu-Spiky-eared'];
 
 const XY_PATCH: {[name: string]: DeepPartial<SpeciesData>} = {
   Abomasnow: {otherFormes: ['Abomasnow-Mega']},
-  Absol: {types: ['Dark', 'Fairy'], {otherFormes: ['Absol-Mega']},
   Aerodactyl: {otherFormes: ['Aerodactyl-Mega']},
   Aggron: {otherFormes: ['Aggron-Mega']},
   Alakazam: {bs: {sd: 95}, otherFormes: ['Alakazam-Mega']},
@@ -5082,6 +5081,7 @@ const XY_PATCH: {[name: string]: DeepPartial<SpeciesData>} = {
   Luvdisc: {types: ['Water', 'Fairy']},
   Illumise: {types: ['Bug', 'Fairy']},
   Gorebyss: {types: ['Water', 'Fairy']},
+  Absol: {types: ['Dark', 'Fairy'], {otherFormes: ['Absol-Mega']},
   Nidoking: {bs: {at: 102}},
   Nidoqueen: {bs: {at: 92}},
   Pidgeot: {bs: {sp: 115}, otherFormes: ['Pidgeot-Mega']},
@@ -5517,7 +5517,7 @@ const XY_PATCH: {[name: string]: DeepPartial<SpeciesData>} = {
     baseSpecies: 'Abomasnow',
   },
   'Absol-Mega': {
-    types: ['Dark'],
+    types: ['Dark', 'Fairy'],
     bs: {hp: 65, at: 150, df: 60, sa: 115, sd: 60, sp: 115},
     weightkg: 49,
     abilities: {0: 'Magic Bounce'},
